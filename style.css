@@ -122,9 +122,9 @@ footer > div{
                 /* 1°tela */
 
 @media screen and (min-width: 1024px) and (max-width: 1366px){
-    body{
+    /* body{
         border: 2px solid red;
-       }
+       } */
 
        /* .bloco03{
         display: flex;
@@ -135,9 +135,9 @@ footer > div{
 
                 /* 2°tela */
 @media screen and (min-width: 500px) and (max-width: 1024px){
- body{
+ /* body{
  border: 2px solid rgb(81, 255, 0);
-  }
+  } */
 
   hr{
     width: 700px;
@@ -161,9 +161,9 @@ footer > div{
 }
                     /* 3°tela */
 @media screen and (max-width: 800px) {
-    body{
+    /* body{
         border: 2px solid rgb(0, 4, 255);
-       }
+       } */
 
        hr{
         width: 600px;
@@ -182,9 +182,9 @@ footer > div{
 
                     /* 4°tela */
     @media screen and  (max-width: 667px){
-        body{
+        /* body{
             border: 2px solid rgb(234, 0, 255);
-           }
+           } */
 
            hr{
             width: 400px;
@@ -203,9 +203,9 @@ footer > div{
         }
                     /* 5°tela */
     @media screen and (max-width: 480px){
-     body{
+     /* body{
       border: 2px solid rgb(255, 115, 0);
-       }
+       } */
 
        #bloco01{
         display: flex;
