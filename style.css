@@ -209,9 +209,9 @@ footer > div{
 
                     /* 4°tela */
     @media screen and  (max-width: 667px){
-        body{
+        /* body{
             border: 2px solid rgb(234, 0, 255);
-           }
+           } */
 
            hr{
             width: 400px;
