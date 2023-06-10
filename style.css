@@ -79,11 +79,38 @@ hr{
     margin: 10%;
     font-size: 30px;
 }
-
+    #kkk{
+        display: flex;
+        align-items: center;
+    }
 #kkk > h2{
     text-align: left;
     margin-left: 10%;
+    
 }
+  #kkk> #container{
+    position: relative;
+    left: 50%;
+    padding-bottom: 5px;
+}
+
+#container::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color :rgb(242, 243, 243);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transition:0.5s ease-in-out;
+}
+
+#container:hover::after{
+    width: 100%;
+   
+ } 
+
+
 
 .bloco03{
     display: flex;
@@ -182,9 +209,9 @@ footer > div{
 
                     /* 4°tela */
     @media screen and  (max-width: 667px){
-        /* body{
+        body{
             border: 2px solid rgb(234, 0, 255);
-           } */
+           }
 
            hr{
             width: 400px;
@@ -199,6 +226,17 @@ footer > div{
     margin: 10%;
     font-size: 30px;
 }
+#kkk> #container{
+    position: relative;
+    left: 30%;
+}
+
+.imgs{
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
 
         }
                     /* 5°tela */
@@ -238,6 +276,18 @@ footer > div{
         margin-top: 2vw;
         margin-left: 2vw;
     }
+
+    #kkk{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+ 
+    #kkk> #container{
+        position: relative;
+        left: 10%;
+    }
+
     .imgs{
         width: 300px;
         height: 300px;
