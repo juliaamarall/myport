@@ -5,5 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
     window.sr = ScrollReveal({reset: true});
     sr.reveal('.proj', {duration: 3000});
     sr.reveal('#bloco01', {duration: 3000});
+    sr.reveal('#principal-main', {duration: 3000});
   });
   
