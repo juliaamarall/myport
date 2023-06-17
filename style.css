@@ -293,9 +293,9 @@ ul > li{
         }
                     /* 5°tela */
     @media screen and (max-width: 480px){
-     body{
+     /* body{
       border: 2px solid rgb(255, 115, 0);
-       }
+       } */
 
        #bloco01{
         display: flex;
