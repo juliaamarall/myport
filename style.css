@@ -198,9 +198,9 @@ ul > li{
                 /* 1°tela */
 
 @media screen and (min-width: 1024px) and (max-width: 1366px){
-    body{
+    /* body{
         border: 2px solid red;
-       }
+       } */
 
        /* .bloco03{
         display: flex;
@@ -211,9 +211,9 @@ ul > li{
 
                 /* 2°tela */
 @media screen and (min-width: 500px) and (max-width: 1024px){
- body{
+ /* body{
  border: 2px solid rgb(81, 255, 0);
-  }
+  } */
 
   hr{
     width: 700px;
@@ -238,9 +238,9 @@ ul > li{
 }
                     /* 3°tela */
 @media screen and (max-width: 800px) {
-    body{
+    /* body{
         border: 2px solid rgb(0, 4, 255);
-       }
+       } */
 
        hr{
         width: 600px;
@@ -260,9 +260,9 @@ ul > li{
 
                     /* 4°tela */
     @media screen and  (max-width: 667px){
-        body{
+        /* body{
             border: 2px solid rgb(234, 0, 255);
-           }
+           } */
 
            hr{
             width: 400px;
