@@ -82,7 +82,7 @@ hr{
 }
     #kkk{
         display: flex;
-        align-items: center;
+        align-items: center;    
     }
 #kkk > h2{
     text-align: left;
@@ -246,6 +246,12 @@ ul > li{
         width: 600px;
         margin: auto;
         margin-bottom: 3vw;
+    }
+
+    #kkk{
+        display: flex;
+        align-items: center; 
+        font-size: 20px;   
     }
 
     /* #bloco01{
